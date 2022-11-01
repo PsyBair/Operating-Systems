@@ -1,0 +1,5 @@
+My code works by using semaphores and mutex locks, as well as threads between producer.cpp
+and consume.cpp. Each function, produce and consume, uses a mix of busy waiting and the
+aforementioned semaphores and mutex locks to ensure that the producer and consumer effectively
+take turn going into and out of the critical section. The producer produces a random int from 0-9
+and inserts it into the buffer of fixed size two, which the consumer then consumes.
