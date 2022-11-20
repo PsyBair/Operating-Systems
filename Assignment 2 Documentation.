@@ -1,0 +1,3 @@
+main.cpp implements Banker's algorithm and takes the starting allocation, max, and available matrices/
+array and runs in order to determine if the sequence is safe (in the case of this assignment, it is) or
+not and outputs the sequence if it is.
